@@ -11,9 +11,9 @@ Matthaus Staniek and Klaus Lehnertz
 In the order of which they were used:
 
 1. coupled_lorenz.m 
-    + integrates coupled lorenz systems and stores time series data
+    + integrates coupled lorenz systems and stores time series data and stores in lorenz_data/ (too big; not included in repository)
     + odd columns correspond to driver (x), even columns correspond to response (y)
-    + each column pair correspond to one coupling parameter    
+    + each column pair correspond to one coupling parameter
 2. coupled_rossler.m
     + same as coupled_lorenz.m but with rossler systems
 3. symbolic_TE.py
